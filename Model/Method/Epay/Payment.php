@@ -177,7 +177,7 @@ class Payment extends \Duitku\Bcaklikpay\Model\Method\AbstractPayment
 		
 		$params = array(
              'merchantCode' => $merchantcode,
-             'paymentAmount' => $amount,
+             'paymentAmount' => $paymentAmount,
              'paymentMethod' => 'BK',
 			 'merchantOrderId' =>$orderId,
              'productDetails' => 'Order : '.$orderId,
